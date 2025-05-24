@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /* 16px = 1rem */
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --base-font: "Inter", "Arial";
   --base-bg: #ffffff;
