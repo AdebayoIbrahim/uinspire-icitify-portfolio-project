@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="container_body">
+      <!-- navbar -->
+
+      <header>
+        <div class="logo">Ibrahim</div>
+        <!-- otherlinks -->
+        <div class="nav_links">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Works</a></li>
+            <li><a href="">About</a></li>
+            <li>
+              <button class="resume">
+                <p>Download resume</p>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.5 2V10.2815L4.86 7.64L4.14 8.36L7.64 11.86L8 12.203L8.36 11.8595L11.86 8.3595L11.14 7.6395L8.5 10.282V2H7.5ZM3.5 13.5V14.5H12.5V13.5H3.5Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+          <!-- close-btn -->
+          <div class="close_slider">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+
+        <!-- icon-for-mobile -->
+        <div class="mobile_click_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+
+      <!-- main-section -->
+      <main>
+        <!-- hero-section -->
+        <section class="hero">
+          <div class="welcome_text">Hey! 👋</div>
+          <div class="about_text">I’m Adelopo Anas</div>
+          <div class="more_text">
+            Passionate about developing solutions with clean codes
+          </div>
+          <div class="socials social_hero">
+            <div class="left_span_socials">
+              <div class="active"></div>
+              <p>Open to work</p>
+              <button class="hireme">Hire me</button>
+            </div>
+            <div class="link_social">
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </section>
+        <!-- hero-section-ends -->
+        <!-- cta-section -->
+        <section class="call_to_a_action">
+          <div class="sub_header_section">Selected Work</div>
+          <div class="grid_works">
+            <!-- --first-grid-item -->
+            <div class="grid_one">
+              <div class="image_grid">
+                <img
+                  src="./images/imageone.png"
+                  alt="workone"
+                  class="grid_image"
+                />
+              </div>
+              <div class="work_text">Javascript forms</div>
+
+              <p>
+                Here we used Javascript in forms and their validation for form
+                submission
+              </p>
+              <button class="view_project">View Project</button>
+            </div>
+
+            <!-- second-grid -->
+
+            <div class="grid_one">
+              <div class="image_grid">
+                <img
+                  src="./images/imagetwo.png"
+                  alt="workone"
+                  class="grid_image"
+                />
+              </div>
+              <div class="work_text">Javascript Events</div>
+
+              <p>
+                Here we used Javascript for handling events and to trigger
+                functions
+              </p>
+              <button class="view_project">View Project</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- about-section -->
+        <section class="about">
+          <div class="about_text">
+            <div class="sub_header_section">About me</div>
+
+            <div class="text_wrap_abt">
+              <p class="text">
+                I’m Anas Adelopo, a web/industrial developer, programmer, artist
+                and photographer. I am currently Head of Development at
+                Blacktail, where I work with various clients ranging from
+                founders to SaaS bros.
+              </p>
+              <p class="morea_abt">
+                I have a passion for all things creative, and I love to explore
+                new fields and forms of development.
+              </p>
+            </div>
+          </div>
+
+          <div class="image_about">
+            <img src="./images/image.png" alt="bout_image" />
+          </div>
+        </section>
+
+        <!-- testimonial-section -->
+        <section class="testimonial">
+          <div class="sub_header_section">Testimonial</div>
+
+          <!-- grid-testimonial -->
+          <div class="grid_testimonial">
+            <div class="card_one">
+              <div class="text_testimonial">
+                Anas’s service was absolutely amazing! He worked with us every
+                step of the way and was very open to changes. We are looking
+                forward to working with him again!
+              </div>
+
+              <div class="testimonial_person">
+                <p>Ibrahim</p>
+                <cite>~client</cite>
+              </div>
+            </div>
+            <div class="card_one">
+              <div class="text_testimonial">
+                Anas’s service was absolutely amazing! He worked with us every
+                step of the way and was very open to changes. We are looking
+                forward to working with him again!
+              </div>
+
+              <div class="testimonial_person">
+                <p>Icitify</p>
+                <cite>~client</cite>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- contact-section -->
+
+        <section class="testimonial contact">
+          <div class="sub_header_section">Contact</div>
+
+          <p class="p_contact">
+            You can get in contact with Anas through this form or through Social
+            Media.
+          </p>
+
+          <!-- --froms -->
+          <form action="" class="contact_form">
+            <input placeholder="name" type="text" name="text" id="text" />
+            <input placeholder="email" type="email" name="email" id="email" />
+            <textarea
+              placeholder="message"
+              name="message"
+              id="message"
+            ></textarea>
+            <button class="send_message">
+              Send Message
+              <i class="fa-regular fa-paper-plane"></i>
+            </button>
+          </form>
+        </section>
+
+        <!-- footer-section -->
+        <footer class="bottom_footer">
+          <div class="footer_name">
+            <div class="sub_header_section">Contact</div>
+
+            <p class="p_footer">
+              You can get in contact with Anas through this form or through
+              Social Media.
+            </p>
+          </div>
+
+          <div class="bottom_links">
+            <section class="socials">
+              <div class="sub_header_section">Links</div>
+              <div class="links_wrap">
+                <li><a href="">Home</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Selected Works</a></li>
+                <li><a href="">Testimonials</a></li>
+              </div>
+            </section>
+            <section class="socials">
+              <div class="sub_header_section">Socials</div>
+              <div class="links_wrap">
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">X(Twitter)</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Threads</a></li>
+                <li><a href="">Instagram</a></li>
+              </div>
+            </section>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
